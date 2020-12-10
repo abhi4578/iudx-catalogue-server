@@ -12,8 +12,6 @@ public class Constants {
 
 
   /** General */
-  public static final String CAT_TEST_SEARCH_INDEX = "testindex";
-  public static final String CAT_INDEX_NAME = Configuration.getDbIndex();
 
   public static final String CONFIG_FILE = "config.properties";
   public static final String IS_SSL = "ssl";
@@ -120,4 +118,16 @@ public class Constants {
   public static final String INSERT = "insert";
   public static final String UPDATE = "update";
   public static final String DELETE = "delete";
+
+  /** Limits/Constraints */
+  public static final long COORDINATES_SIZE = 10;
+  public static final int COORDINATES_PRECISION = 6;
+  public static final int STRING_SIZE = 100;
+  public static final int PROPERTY_SIZE = 4;
+  public static final int VALUE_SIZE = 4;
+  public static final int FILTER_VALUE_SIZE = 10;
+  public static final int ID_SIZE = 512;
+  public static final int FILTER_PAGINATION_SIZE = 10000;
+  public static final int OFFSET_PAGINATION_SIZE = 9999;
+  public static final int MAXDISTANCE_LIMIT = 10000; // 10KM
 }
