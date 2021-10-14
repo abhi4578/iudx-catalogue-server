@@ -54,8 +54,8 @@ public class AuthenticationVerticle extends AbstractVerticle {
         new PubSecKeyOptions()
             .setAlgorithm("ES256")
             .setBuffer("-----BEGIN PUBLIC KEY-----\n" +
-                "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8BKf2HZ3wt6wNf30SIsbyjYPkkTS\n" +
-                "GGyyM2/MGF/zYTZV9Z28hHwvZgSfnbsrF36BBKnWszlOYW0AieyAUKaKdg==\n" +
+                "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErpLtzpUlszGvlbodGbCrfp3VlxIR\n" +
+                "fG/xkZiy5Jqtgryjv2IIj4vLwJbwm4jMP6WW8f5tAshbvoqYGCzTSBo8Rg==\n" +
                 "-----END PUBLIC KEY-----\n" +
                 ""));
     
