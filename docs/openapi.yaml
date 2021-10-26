@@ -1,7 +1,7 @@
 openapi: 3.0.2
 info:
   title: IUDX Catalogue Server APIs
-  version: 1.0.0
+  version: 3.0.0
   description: |
     The Catalogue is IUDX's dataset discovery portal and metadata store. 
     It enables *Providers* of datasources to describe them with IUDX based annotations
@@ -13,10 +13,9 @@ info:
     Apart from the response codes specified in each API,
     the API server may respond with certain 4xx and 5xx error codes which are related to common API Gateway behaviours.
     The application should address them accordingly.
-    
   contact:
-    name: Rakshit
-    email: rakshit.ramesh@datakaveri.org
+    name: For support contact IUDX Team at
+    email: support@iudx.org.in 
 tags:
   - name: Entity
     x-displayName: Entity
